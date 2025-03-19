@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-$mainFont: Roboto;
+$mainFont: Poppins, sans-serif;
 
 $gridCols: 5;
 $gridRows: 5;
@@ -13,7 +13,7 @@ $containerSize: calc(#{$gridRows} * #{$gridSize + 0.22vh} + #{$gridRows} * #{$gr
 body {
   @apply m-0 h-screen bg-none overflow-hidden #{!important};
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Poppins', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
